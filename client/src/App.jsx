@@ -10,7 +10,7 @@ import InterviewHistory from './pages/InterviewHistory';
 import Pricing from './pages/Pricing';
 import InterviewReport from './pages/InterviewReport';
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://ai-interview-project-a3gr.onrender.com";
 axios.defaults.withCredentials = true;
 
 export const ServerUrl = "https://ai-interview-project-a3gr.onrender.com"
