@@ -13,7 +13,7 @@ import InterviewReport from './pages/InterviewReport';
 axios.defaults.baseURL = "http://localhost:8000";
 axios.defaults.withCredentials = true;
 
-export const ServerUrl = "http://localhost:8000"
+export const ServerUrl = "https://ai-interview-project-a3gr.onrender.com"
 
 function App(){
   const dispatch = useDispatch()
